@@ -1,0 +1,19 @@
+DATA:
+  BATCH_SIZE: 2
+  RANDOM_SEED: 42
+
+TRAIN:
+  EPOCHS: 40
+  LEARNING_RATE: 0.001
+  PATIENCE: 10
+  SEED: 42
+
+OUTPUT_EVERY: 5
+
+
+PATH:
+  TRAIN_DIR: "data/train/clean"
+  VAL_DIR: "data/val/clean"
+  TEST_DIR: "data/test/clean"
+  CHECKPOINT_DIR: "checkpoints"
+

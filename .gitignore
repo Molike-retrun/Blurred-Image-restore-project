@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+# checkpoint
+checkpoint/
+*.pth
+*.pt
+
+#日志
+logs/
+*.log
+
+#数据集
+data/
+
+tests/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
